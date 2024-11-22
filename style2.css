@@ -1,0 +1,147 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   
+}
+header{
+    height: 10vh;
+    background-color: rgb(39, 37, 37);
+    display: flex;
+
+}
+.logo{
+  
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.logo div p,span{
+    color: white;
+    margin-left: 80px;
+}
+
+
+.logo img{
+    height: 60%;
+    width: 50%;
+    object-fit: cover;
+    margin-left: -20px;
+}
+.searchbar{
+  
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchbar span{
+    height: 45%;
+    width: 8%;
+    background-color: rgb(158, 157, 157);
+    text-align: center;
+    align-content: center;
+    
+}
+.searchbar input{
+    height: 45%;
+    width: 75%;
+    outline: none;
+    border: none;
+}
+.searchbar button{
+    height: 49%;
+    width:17%;
+    background-color: orange;
+}
+.items{
+   
+    height: 100%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+}
+.items ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.items ul li {
+    list-style-type:none;
+    color: white;
+}
+.items ul li a{
+    text-decoration: none;
+    color: white;
+}
+.items li last{
+    margin-right: 100px;
+}
+    
+.pcontianer{
+    max-height: max-content;
+
+        
+}
+.pcontinaer h1{
+    font-size: 50px;
+    margin-left: 30px;
+    
+   
+}
+
+
+.products{
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+.p1{
+    width: 80%;
+    max-height: max-content;
+    display: grid;
+    grid-template-columns:repeat(3,25%) ;
+    gap: 20px ;
+    justify-content: center;
+    align-items: center;
+
+}
+.cards{
+    background-color:#d6e1e6;
+    height: 50vh;
+    width: 30vh;
+    border-radius: 10px;
+
+}
+.cards img{
+    height: 70%;
+    width: 80%;
+    object-fit: cover;
+    margin: 10px 0px 0px 20px;
+    
+}
+.cards h3 ,h4{
+    text-align: center;
+    align-content: center;
+}
+.n{
+   background-color: rgb(215, 156, 44);
+   height: 30px;
+   width: 30px;
+   border-radius:10px 0px 20px 0px ;
+   text-align: center;
+   align-content: center;
+}
